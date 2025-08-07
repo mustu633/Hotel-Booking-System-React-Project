@@ -1,0 +1,139 @@
+.eight-page {
+  width: 95%;
+  height: 50vh;
+  background-color: #eaf8f1;
+  margin: auto;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+}
+
+.eight-content {
+  width: 100%;
+  height: 42vh;
+  /* background-color: blue; */
+  padding-left: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.eight-side-container {
+  width: 25%;
+  margin-top: 30px;
+  margin-left: 30px;
+  /* background-color: green; */
+  display: flex;
+  flex-direction: column;
+  justify-content: baseline;
+}
+
+.eight-side-container a {
+  margin-bottom: 10px;
+  color: black;
+}
+
+.footer-logo {
+  width: 100%;
+  height: 10vh;
+  /* background-color: #3d1e08; */
+  display: flex;
+  align-items: center;
+  justify-content: baseline;
+}
+
+.eight-logo {
+  color: #31b675;
+  font-weight: 800;
+}
+
+.logo-discription {
+  color: black;
+  line-height: 20px;
+  margin-top: 8px;
+  padding: 8px;
+}
+#right-footer {
+  margin-left: 20px;
+  padding-left: 50px;
+}
+
+.eight-center-container {
+  width: 50%;
+  /* background-color: aqua; */
+  display: flex;
+  justify-content: space-evenly;
+  margin-left: 10px;
+  margin-top: 30px;
+}
+
+.center-footer {
+  width: 30%;
+  /* background-color: rgb(8, 15, 15); */
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+}
+.center-footer ul {
+    line-height: 30px;
+    margin-left: 15px;
+}
+.center-footer ul li{
+    list-style-type: circle;
+}
+
+.center-heading {
+  font-size: 20px;
+  margin-bottom: 30px;
+  margin-top: 15px;
+  /* background-color: red; */
+  color: #31b675;
+}
+
+.center-footer a {
+  margin-bottom: 10px;
+  color: black;
+}
+
+.eight-footer {
+  width: 100%;
+  height: 8vh;
+  /* background-color: red; */
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.eight-footer p{
+    letter-spacing: 2px;
+    font-size: 18px;
+    font-weight: 500;
+}
+.eight-footer p span{
+    color: #31b675;
+}
+
+@media screen and (max-width: 768px) {
+    .eight-page{
+        height: 65vh;
+    }
+    .eight-content{
+        height: 200vh;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+    .eight-side-container{
+        width: 90%;
+        height: 20vh;
+    }
+    .eight-center-container{
+        width: 90%;
+        height: 30vh;
+    }
+    .eight-footer{
+        height: 25vh;
+        /* background-color: red; */
+    }
+    .eight-footer p{
+        font-size: 12px;
+    }
+}
